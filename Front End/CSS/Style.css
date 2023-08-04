@@ -1,0 +1,22 @@
+body {
+
+    background-color: #88a69b;
+    color: #000000;
+}
+
+h2,
+h1,
+h3 {
+    font-size: 30px;
+
+    color: #594830;
+}
+
+
+
+p,
+h4 {
+    font-size: larger;
+
+    color: rgb(0, 0, 0);
+}

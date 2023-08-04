@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        body {
+            font-family: "Sofia", sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="../CSS/MainStyle.css">
+    <link rel="stylesheet" href="../CSS/styleLogIn.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+
+        <ul>
+
+            <li>
+                <button class="bttn" onclick="window.location.href='Main Page.html'">Home</button>
+            </li>
+
+            <li>
+                <button class="bttn" onclick="window.location.href='Contact Us.html'">Feedback</button>
+
+            </li>
+
+
+
+        </ul>
+    </div>
+
+    <div id="LogIn">
+        <h1>Login As Admin</h1>
+
+        <label for="Username">Enter Your UserName:</label>
+        <input type="text" name="UserName" placeholder="Enter Username" id="username">
+        <br>
+        <label for="password"> Enter Your Password:</label>
+        <input type="password" name="Password" placeholder="Enter Username" id="pass">
+        <br>
+
+        <button type="submit" id="Button">Log In</button>
+    </div>
+
+
+    <script src="../Java Script/Admin Login.js"></script>
+</body>
+
+</html>

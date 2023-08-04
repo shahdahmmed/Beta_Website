@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD Course</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://icons.getbootstrap.com/">
+    <style>
+        body {
+            font-family: "Sofia", sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="../CSS/MainStyle.css">
+    <link rel="stylesheet" href="../CSS/styleLogIn.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+
+        <ul>
+
+            <li>
+                <button class="btttn" onclick="window.location.href='Main Page.html'">Home</button>
+            </li>
+
+            <li>
+                <button class="btttn" onclick="window.location.href='Contact Us.html'">Feedback</button>
+
+            </li>
+
+            <li>
+                <button class="btttn" onclick="window.location.href='Admin.html'">Admin</button>
+
+            </li>
+
+
+        </ul>
+    </div>
+
+    <div class="AddCourse">
+        <form action="Main Page.html">
+            <ul>
+                <li>
+                    <form action="../HTML/Main Page.html">
+                        <button id="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                            </svg></button>
+                    </form>
+                </li>
+            </ul>
+            <br>
+        </form>
+        <h1>Add Course</h1>
+
+        <label for="name">Enter course name</label>
+        <input id="name" type="text" name="Enter course name"><br><br>
+        <label for="description">Enter Description</label>
+        <input id="dsc" type="text" name="Enter Description"><br><br>
+        <label for="image">Enter course Image as URL </label>
+        <input id="img" type="url" name="Enter course Image as URL"><br><br>
+        <button id="bt">ADD</button>
+    </div>
+
+    <script src="../Java Script/AddCourses.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/MainStyle.css">
+    <link rel="stylesheet" href="../CSS/styleLogIn.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        body {
+            font-family: "Sofia", sans-serif;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+
+        <ul>
+
+            <li>
+                <button class="btttn" onclick="window.location.href='Main Page.html'">Home</button>
+            </li>
+
+            <li>
+                <button class="btttn" onclick="window.location.href='Contact Us.html'">Feedback</button>
+
+            </li>
+
+            <li>
+                <button class="btttn" onclick="window.location.href='Admin Login.html'">Log In</button>
+
+            </li>
+
+        </ul>
+    </div>
+
+
+
+    <form id="LogIn" action="">
+        <h2>FeedBackPage </h2><label for="email">Enter your E-mail</label>
+        <input type="email" name="email" id="email" placeholder="enter your email">
+        <br>
+
+        <label for="text">Enter your message</label>
+        <input type="text" name="message" id="message" placeholder="enter your message">
+        <br>
+        <br>
+
+        <button id="sub">Submit Feedback</button>
+    </form>
+
+
+    <script src="../Java Script/Contact Us.js"></script>
+</body>
+
+</html>
